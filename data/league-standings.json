@@ -1,0 +1,113 @@
+{
+  "overall": {
+    "title": "Overall Championship Standings",
+    "teams": [
+      { "rank": 1, "name": "Midnight Racing Club", "owner": "Aamir Kayani", "points": 1936 },
+      { "rank": 2, "name": "Team Mugen VTEC Racing", "owner": "SAQIB AHMED", "points": 1785 },
+      { "rank": 3, "name": "Kanjo Tartan Racing", "owner": "Chor Ip Cheng", "points": 1638 },
+      { "rank": 4, "name": "elmasterplan", "owner": "Luq Haq", "points": 1415 },
+      { "rank": 5, "name": "Waqy Racing", "owner": "Waqas Arshid", "points": 1361 }
+    ]
+  },
+  "australian": {
+    "title": "Australian Grand Prix (14-16 Mar) - Round 1",
+    "teams": [
+      { "rank": 1, "name": "Midnight Racing Club", "owner": "Aamir Kayani", "points": 185 },
+      { "rank": 2, "name": "Team Mugen VTEC Racing", "owner": "SAQIB AHMED", "points": 172 },
+      { "rank": 3, "name": "elmasterplan", "owner": "Luq Haq", "points": 165 },
+      { "rank": 4, "name": "Kanjo Tartan Racing", "owner": "Chor Ip Cheng", "points": 158 },
+      { "rank": 5, "name": "Waqy Racing", "owner": "Waqas Arshid", "points": 145 }
+    ]
+  },
+  "chinese": {
+    "title": "Chinese Grand Prix (21-23 Mar) - Round 2",
+    "teams": [
+      { "rank": 1, "name": "Team Mugen VTEC Racing", "owner": "SAQIB AHMED", "points": 198 },
+      { "rank": 2, "name": "Midnight Racing Club", "owner": "Aamir Kayani", "points": 192 },
+      { "rank": 3, "name": "Kanjo Tartan Racing", "owner": "Chor Ip Cheng", "points": 175 },
+      { "rank": 4, "name": "elmasterplan", "owner": "Luq Haq", "points": 168 },
+      { "rank": 5, "name": "Waqy Racing", "owner": "Waqas Arshid", "points": 162 }
+    ]
+  },
+  "japanese": {
+    "title": "Japanese Grand Prix (05-06 Apr) - Round 3",
+    "teams": [
+      { "rank": 1, "name": "Midnight Racing Club", "owner": "Aamir Kayani", "points": 157 },
+      { "rank": 2, "name": "Team Mugen VTEC Racing", "owner": "SAQIB AHMED", "points": 137 },
+      { "rank": 3, "name": "Kanjo Tartan Racing", "owner": "Chor Ip Cheng", "points": 132 },
+      { "rank": 4, "name": "Waqy Racing", "owner": "Waqas Arshid", "points": 130 },
+      { "rank": 5, "name": "elmasterplan", "owner": "Luq Haq", "points": 125 }
+    ]
+  },
+  "bahrain": {
+    "title": "Bahrain Grand Prix (28-30 Mar) - Round 4",
+    "teams": [
+      { "rank": 1, "name": "Midnight Racing Club", "owner": "Aamir Kayani", "points": 203 },
+      { "rank": 2, "name": "elmasterplan", "owner": "Luq Haq", "points": 189 },
+      { "rank": 3, "name": "Team Mugen VTEC Racing", "owner": "SAQIB AHMED", "points": 178 },
+      { "rank": 4, "name": "Kanjo Tartan Racing", "owner": "Chor Ip Cheng", "points": 165 },
+      { "rank": 5, "name": "Waqy Racing", "owner": "Waqas Arshid", "points": 152 }
+    ]
+  },
+  "saudi": {
+    "title": "Saudi Arabian Grand Prix (18-20 Apr) - Round 5",
+    "teams": [
+      { "rank": 1, "name": "Team Mugen VTEC Racing", "owner": "SAQIB AHMED", "points": 215 },
+      { "rank": 2, "name": "Midnight Racing Club", "owner": "Aamir Kayani", "points": 198 },
+      { "rank": 3, "name": "elmasterplan", "owner": "Luq Haq", "points": 182 },
+      { "rank": 4, "name": "Kanjo Tartan Racing", "owner": "Chor Ip Cheng", "points": 175 },
+      { "rank": 5, "name": "Waqy Racing", "owner": "Waqas Arshid", "points": 168 }
+    ]
+  },
+  "miami": {
+    "title": "Miami Grand Prix (03-04 May) - Round 6",
+    "teams": [
+      { "rank": 1, "name": "Midnight Racing Club", "owner": "Aamir Kayani", "points": 298 },
+      { "rank": 2, "name": "Team Mugen VTEC Racing", "owner": "SAQIB AHMED", "points": 270 },
+      { "rank": 3, "name": "Kanjo Tartan Racing", "owner": "Chor Ip Cheng", "points": 249 },
+      { "rank": 4, "name": "Waqy Racing", "owner": "Waqas Arshid", "points": 209 },
+      { "rank": 5, "name": "elmasterplan", "owner": "Luq Haq", "points": 180 }
+    ]
+  },
+  "emilia": {
+    "title": "Emilia Romagna Grand Prix (17-18 May) - Round 7",
+    "teams": [
+      { "rank": 1, "name": "Midnight Racing Club", "owner": "Aamir Kayani", "points": 198 },
+      { "rank": 2, "name": "Team Mugen VTEC Racing", "owner": "SAQIB AHMED", "points": 165 },
+      { "rank": 3, "name": "elmasterplan", "owner": "Luq Haq", "points": 158 },
+      { "rank": 4, "name": "Kanjo Tartan Racing", "owner": "Chor Ip Cheng", "points": 142 },
+      { "rank": 5, "name": "Waqy Racing", "owner": "Waqas Arshid", "points": 135 }
+    ]
+  },
+  "monaco": {
+    "title": "Monaco Grand Prix (24-25 May) - Round 8",
+    "teams": [
+      { "rank": 1, "name": "elmasterplan", "owner": "Luq Haq", "points": 195 },
+      { "rank": 2, "name": "Midnight Racing Club", "owner": "Aamir Kayani", "points": 188 },
+      { "rank": 3, "name": "Team Mugen VTEC Racing", "owner": "SAQIB AHMED", "points": 172 },
+      { "rank": 4, "name": "Kanjo Tartan Racing", "owner": "Chor Ip Cheng", "points": 165 },
+      { "rank": 5, "name": "Waqy Racing", "owner": "Waqas Arshid", "points": 158 }
+    ]
+  },
+  "spanish": {
+    "title": "Spanish Grand Prix (31 May - 01 Jun) - Round 9",
+    "teams": [
+      { "rank": 1, "name": "Team Mugen VTEC Racing", "owner": "SAQIB AHMED", "points": 189 },
+      { "rank": 2, "name": "Midnight Racing Club", "owner": "Aamir Kayani", "points": 175 },
+      { "rank": 3, "name": "Kanjo Tartan Racing", "owner": "Chor Ip Cheng", "points": 168 },
+      { "rank": 4, "name": "elmasterplan", "owner": "Luq Haq", "points": 162 },
+      { "rank": 5, "name": "Waqy Racing", "owner": "Waqas Arshid", "points": 145 }
+    ]
+  },
+  "canadian": {
+    "title": "Canadian Grand Prix (14-15 Jun) - Round 10",
+    "teams": [
+      { "rank": 1, "name": "Waqy Racing", "owner": "Waqas Arshid", "points": 147 },
+      { "rank": 2, "name": "Midnight Racing Club", "owner": "Aamir Kayani", "points": 135 },
+      { "rank": 3, "name": "elmasterplan", "owner": "Luq Haq", "points": 128 },
+      { "rank": 4, "name": "Team Mugen VTEC Racing", "owner": "SAQIB AHMED", "points": 120 },
+      { "rank": 5, "name": "Kanjo Tartan Racing", "owner": "Chor Ip Cheng", "points": 115 }
+    ]
+  }
+}
+

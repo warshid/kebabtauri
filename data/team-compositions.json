@@ -1,0 +1,73 @@
+{
+  "Midnight Racing Club": {
+    "drivers": [
+      { "name": "L. Hamilton", "team": "Ferrari", "price": "$25.0M", "points": 52 },
+      { "name": "O. Piastri", "team": "McLaren", "price": "$18.5M", "points": 44 },
+      { "name": "A. Albon", "team": "Williams", "price": "$8.0M", "points": 16 },
+      { "name": "N. Hulkenberg", "team": "Haas", "price": "$7.5M", "points": 15 },
+      { "name": "L. Stroll", "team": "Aston Martin", "price": "$6.0M", "points": 8 }
+    ],
+    "constructors": [
+      { "name": "McLaren", "price": "$25.0M", "points": 40 },
+      { "name": "Ferrari", "price": "$32.0M", "points": 35 }
+    ],
+    "remainingBudget": "$3.0M"
+  },
+  "Team Mugen VTEC Racing": {
+    "drivers": [
+      { "name": "M. Verstappen", "team": "Red Bull", "price": "$32.0M", "points": 48 },
+      { "name": "C. Leclerc", "team": "Ferrari", "price": "$24.0M", "points": 38 },
+      { "name": "G. Russell", "team": "Mercedes", "price": "$16.0M", "points": 22 },
+      { "name": "P. Gasly", "team": "Alpine", "price": "$9.0M", "points": 12 },
+      { "name": "K. Magnussen", "team": "Haas", "price": "$6.5M", "points": 6 }
+    ],
+    "constructors": [
+      { "name": "Red Bull", "price": "$32.0M", "points": 45 },
+      { "name": "Mercedes", "price": "$20.0M", "points": 28 }
+    ],
+    "remainingBudget": "$2.5M"
+  },
+  "Kanjo Tartan Racing": {
+    "drivers": [
+      { "name": "L. Norris", "team": "McLaren", "price": "$20.0M", "points": 42 },
+      { "name": "C. Sainz", "team": "Williams", "price": "$15.0M", "points": 11 },
+      { "name": "F. Alonso", "team": "Aston Martin", "price": "$14.0M", "points": 18 },
+      { "name": "Y. Tsunoda", "team": "RB", "price": "$8.5M", "points": 9 },
+      { "name": "V. Bottas", "team": "Kick Sauber", "price": "$7.0M", "points": 3 }
+    ],
+    "constructors": [
+      { "name": "McLaren", "price": "$25.0M", "points": 40 },
+      { "name": "Aston Martin", "price": "$12.0M", "points": 18 }
+    ],
+    "remainingBudget": "$4.5M"
+  },
+  "elmasterplan": {
+    "drivers": [
+      { "name": "G. Russell", "team": "Mercedes", "price": "$16.0M", "points": 22 },
+      { "name": "E. Ocon", "team": "Alpine", "price": "$10.0M", "points": 14 },
+      { "name": "L. Sargeant", "team": "Williams", "price": "$5.0M", "points": 2 },
+      { "name": "Z. Guanyu", "team": "Kick Sauber", "price": "$6.0M", "points": 1 },
+      { "name": "J. Doohan", "team": "Alpine", "price": "$4.5M", "points": 0 }
+    ],
+    "constructors": [
+      { "name": "Mercedes", "price": "$20.0M", "points": 28 },
+      { "name": "Alpine", "price": "$8.0M", "points": 14 }
+    ],
+    "remainingBudget": "$8.5M"
+  },
+  "Waqy Racing": {
+    "drivers": [
+      { "name": "O. Piastri", "team": "McLaren", "price": "$18.5M", "points": 44 },
+      { "name": "A. Albon", "team": "Williams", "price": "$8.0M", "points": 16 },
+      { "name": "N. Hulkenberg", "team": "Haas", "price": "$7.5M", "points": 15 },
+      { "name": "C. Sainz", "team": "Williams", "price": "$15.0M", "points": 11 },
+      { "name": "I. Hadjar", "team": "Williams", "price": "$4.0M", "points": 1 }
+    ],
+    "constructors": [
+      { "name": "McLaren", "price": "$25.0M", "points": 40 },
+      { "name": "Williams", "price": "$8.0M", "points": 4 }
+    ],
+    "remainingBudget": "$1.0M"
+  }
+}
+

@@ -1,1 +1,170 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KebabTauri F1</title>
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="header" id="top">
+            <h1>KebabTauri F1 Fantasy League</h1>
+            <nav class="nav-links">
+                <a href="#standings" class="nav-link">
+                    <i data-lucide="trophy"></i>
+                    Standings
+                </a>
+                <a href="#team-compositions" class="nav-link">
+                    <i data-lucide="users"></i>
+                    Team Compositions
+                </a>
+                <a href="#insights" class="nav-link">
+                    <i data-lucide="bar-chart-3"></i>
+                    Insights
+                </a>
+                <a href="#race-info" class="nav-link">
+                    <i data-lucide="flag"></i>
+                    Next Race
+                </a>
+                <a href="#history" class="nav-link">
+                    <i data-lucide="history"></i>
+                    Race History
+                </a>
+            </nav>
+        </div>
+
+        <div class="race-info" id="race-info">
+            <h3>
+                <i data-lucide="flag"></i>
+                Next Race: Austrian Grand Prix
+            </h3>
+            <div class="race-details">
+                <div>Formula 1 MSC Cruises Austrian Grand Prix 2025</div>
+                <div class="race-detail-item">
+                    <i data-lucide="map-pin"></i>
+                    Austria
+                </div>
+                <div class="race-detail-item">
+                    <i data-lucide="calendar"></i>
+                    28 - 29 June 2025
+                </div>
+                <div class="race-detail-item">
+                    <i data-lucide="hash"></i>
+                    Round 11
+                </div>
+            </div>
+            <div class="countdown-header">
+                <i data-lucide="clock"></i>
+                Team Lock Deadline:
+            </div>
+            <div class="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">02</span>
+                    <span class="countdown-label">DAYS</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">17</span>
+                    <span class="countdown-label">HRS</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">30</span>
+                    <span class="countdown-label">MINS</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">00</span>
+                    <span class="countdown-label">SECS</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls" id="history">
+            <div class="control-group">
+                <label for="raceFilter" style="color: #a73d4a; font-weight: bold; display: flex; align-items: center; gap: 8px;">
+                    <i data-lucide="filter"></i>
+                    Filter by Race:
+                </label>
+                <select id="raceFilter" class="race-filter">
+                    <option value="overall">Overall Standings</option>
+                    <option value="australian">Australian Grand Prix</option>
+                    <option value="chinese">Chinese Grand Prix</option>
+                    <option value="japanese">Japanese Grand Prix</option>
+                    <option value="bahrain">Bahrain Grand Prix</option>
+                    <option value="saudi">Saudi Arabian Grand Prix</option>
+                    <option value="emilia">Emilia Romagna Grand Prix</option>
+                    <option value="monaco">Monaco Grand Prix</option>
+                    <option value="spanish">Spanish Grand Prix</option>
+                    <option value="canadian">Canadian Grand Prix</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="race-info-display" id="raceInfoDisplay">
+            <strong>Loading...</strong>
+        </div>
+
+        <div class="stats-grid">
+            <div class="card" id="standings">
+                <h2>
+                    <i data-lucide="trophy"></i>
+                    League Standings
+                </h2>
+                <div id="leaderboard">
+                    <div class="loading">
+                        <i data-lucide="loader-2"></i>
+                        <p>Loading league standings...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="team-compositions">
+                <h2>
+                    <i data-lucide="users"></i>
+                    Team Compositions
+                </h2>
+                <div class="control-group" style="margin-bottom: 20px;">
+                    <label for="teamSelector" style="color: #a73d4a; font-weight: bold; display: flex; align-items: center; gap: 8px;">
+                        <i data-lucide="user-check"></i>
+                        Select Team:
+                    </label>
+                    <select id="teamSelector" class="team-selector">
+                        <option value="">Choose a team...</option>
+                    </select>
+                </div>
+                <div id="teamCompositionDisplay">
+                    <div class="loading">
+                        <i data-lucide="loader-2"></i>
+                        <p>Loading team compositions...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="insights">
+                <h2>
+                    <i data-lucide="bar-chart-3"></i>
+                    League Insights
+                </h2>
+                <div id="insightsContent">
+                    <div class="loading">
+                        <i data-lucide="loader-2"></i>
+                        <p>Calculating insights from league data...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Last updated: June 25th, 2025</p>
+        </div>
+    </div>
+
+    <button class="scroll-to-top" id="scrollToTop">
+        <i data-lucide="arrow-up"></i>
+    </button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
